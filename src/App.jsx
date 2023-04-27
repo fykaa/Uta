@@ -1,3 +1,13 @@
+import { Route, Routes } from "react-router-dom";
+import { Find, GetStarted } from "./pages";
+
 export default function App() {
-  return <h1 className="text-5xl font-bold font-display ">Hello world!</h1>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<GetStarted />} />
+        <Route path="/find" element={<Find />} />
+      </Routes>
+    </>
+  );
 }

@@ -9,6 +9,7 @@ export default {
       bgPrimary: "#B4EE91",
       buttonBg: "#013106",
       buttonSecondaryBg: "#D9D9D9",
+      white: "#FFFFFF",
     },
   },
   plugins: [],
